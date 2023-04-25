@@ -46,7 +46,7 @@ alex@ubuntu:~/c/printf$ cat main.c
 #include <limits.h>
 #include <stdio.h>
 #include "main.h"
-
+```
 /**
  * main - Entry point
  *
@@ -87,7 +87,8 @@ int main(void)
     printf("Unknown:[%r]\n");
     return (0);
 }
-alex@ubuntu:~/c/printf$ gcc -Wall -Wextra -Werror -pedantic -std=gnu89 -Wno-format *.c
+```
+alex@ubuntu:~/c/printf$ `gcc -Wall -Wextra -Werror -pedantic -std=gnu89 -Wno-format *.c`
 alex@ubuntu:~/c/printf$ ./printf
 Let's try to printf a simple sentence.
 Let's try to printf a simple sentence.
@@ -145,9 +146,10 @@ GitHub repository: printf
 1. Education is when you read the fine print. Experience is what you get if you don't
 mandatory
 Handle the following conversion specifiers:
-
+```
 d
 i
+```
 You don’t have to handle the flag characters
 You don’t have to handle field width
 You don’t have to handle precision
