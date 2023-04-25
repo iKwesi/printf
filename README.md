@@ -1,2 +1,2 @@
 # printf
-This is a group project for the alx-africa Software Engineering program
+This is a group project for the alx-africa Software Engineering programme
